@@ -4,36 +4,44 @@
   padding: 0;
 }
 
-header {
+
+.header{
+  height: 100vh;
+  width: 100%;
   display: flex;
+  text-align: center;
   flex-direction: column;
-  width: 100%;
-  background-image: "comptoir_img.jpg";
-  padding: none;
-}
-#comptoir {
-  height: 20vh;
-  border: solid blue 1px;
-}
-header img {
-  width: 100%;
-  /*height: 100vh;*/
-  /*position: relative;*/
-}
-/*header .navbar {
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-}*/
-header .navbar ul {
-  display: flex;
-  /* padding: 50px;*/
-  list-style: none;
-  height: 7vh;
-  border: solid black 1px;
-  justify-content: space-around;
+  background-color: #007200;
   align-items: center;
 }
+.header h1{
+  margin-top: 100px;
+  color: white;
+  font-size: 4em;
+}
+.header .button{
+  height: 40px;
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+  line-height: 40px;
+  margin-top: 50px;
+}
+.header .image-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  width: 70%;
+  height: 325px;
+  justify-content: space-between;
+
+}
+.header .image-container img{
+  height: 100%;
+  width: auto;
+  border-radius: 10px;
+}
+
 
 .container_introduction {
   display: flex;
