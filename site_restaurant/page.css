@@ -59,6 +59,10 @@ html {
   margin-top: 50px;
 }
 
+.horaire {
+  margin-bottom: 100px;
+}
+
 .horaire .card-horaire {
   background-color: #f0efeb;
   height: 400px;
@@ -68,29 +72,20 @@ html {
 }
 .container-contact {
   display: flex;
+  column-gap: 10vw;
+  margin-bottom: 100px;
+
   /*height: 100vh;*/
 }
 .container-contact .left {
-  height: 100vh;
-  width: 50vw;
+  /*height: 100vh;*/
+  width: 45vw;
+  border: 1px solid blue;
 }
 .container-contact iframe {
   border-radius: 10px;
 }
 .container-contact .right {
-  height: 100vh;
-  width: 50vw;
-}
-@keyframes scrollAnimation {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-#history {
-  opacity: 0; /* Le contenu cible est initialement invisible */
-  animation: scrollAnimation 2s ease forwards;
+  height: 50vh;
+  width: 45vw;
 }
