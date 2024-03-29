@@ -1,36 +1,60 @@
-let btn = document.getElementById("horaire");
-let descoverBtn = document.getElementById("descover_btn");
+function scrollToHistory() {
+  var historyElement = document.getElementById("history");
+  var offsetTop = historyElement.offsetTop;
+  var duration = 800; // Durée de l'animation en millisecondes
+  var start = window.pageYOffset;
+  var startTime =
+    "now" in window.performance ? performance.now() : new Date().getTime();
 
-let posHorraire = btn.getBoundingClientRect();
-let posDescBtn = descoverBtn.getBoundingClientRect();
-posy = parseInt(posHorraire.y);
+  function scroll() {
+    var now =
+      "now" in window.performance ? performance.now() : new Date().getTime();
+    var time = Math.min(1, (now - startTime) / duration);
+    var timeFunction = easeInOutQuad(time);
+    window.scroll(0, Math.ceil(timeFunction * (offsetTop - start) + start));
 
-let distance = parseInt(posHorraire.y - posDescBtn.y);
-let d = parseInt(distance / 10);
-let pas = 10;
-
-let index = 0;
-let i = 0;
-
-console.log(posDescBtn);
-console.log(distance);
-
-descoverBtn.addEventListener("click", function () {
-  timout = setInterval(() => {
-    window.scrollBy(0, pas);
-    d = d - 1; //posy = posy - 1;
-  }, 1);
-
-  setInterval(() => {
-    if (d == 0) {
-      clearInterval(timout);
-      d = parseInt(distance / 10);
+    if (Math.abs(window.pageYOffset - offsetTop) < 1 || time >= 1) {
+      return;
     }
-  });
 
-  /*document.getElementById("history").scrollIntoView({
-    behavior: "smooth",
-    block: "center",
-    inline: "nearest",
-  });*/
-});
+    requestAnimationFrame(scroll);
+  }
+
+  function easeInOutQuad(t) {
+    return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+  }
+
+  scroll();
+}
+
+/*
+function scrollToHistory() {
+  var historyElement = document.getElementById("history");
+  var offsetBottom =
+    historyElement.getBoundingClientRect().top + window.pageYOffset;
+  var duration = 800; // Durée de l'animation en millisecondes
+  var start = window.pageYOffset;
+  var startTime =
+    "now" in window.performance ? performance.now() : new Date().getTime();
+
+  function scroll() {
+    var now =
+      "now" in window.performance ? performance.now() : new Date().getTime();
+    var time = Math.min(1, (now - startTime) / duration);
+    var timeFunction = easeInOutQuad(time);
+    window.scroll(0, Math.ceil(timeFunction * (offsetBottom - start) + start));
+
+    if (Math.abs(window.pageYOffset - offsetBottom) < 1 || time >= 1) {
+      return;
+    }
+
+    requestAnimationFrame(scroll);
+  }
+
+  function easeInOutQuad(t) {
+    return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+  }
+
+  scroll();
+}
+*/

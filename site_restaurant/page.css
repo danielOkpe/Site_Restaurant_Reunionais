@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .header {
   height: 100vh;
@@ -68,15 +71,15 @@
   /*height: 100vh;*/
 }
 .container-contact .left {
-  height: 100%;
-  width: 50%;
+  height: 100vh;
+  width: 50vw;
 }
 .container-contact iframe {
   border-radius: 10px;
 }
 .container-contact .right {
-  height: 100%;
-  width: 50%;
+  height: 100vh;
+  width: 50vw;
 }
 @keyframes scrollAnimation {
   from {
