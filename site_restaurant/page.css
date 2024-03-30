@@ -3,12 +3,14 @@
   margin: 0;
   padding: 0;
 }
+
 html {
   scroll-behavior: smooth;
+  margin: 0;
 }
 
 .header {
-  height: 100vh;
+  height: 110vh;
   display: flex;
   text-align: center;
   flex-direction: column;
@@ -30,17 +32,13 @@ html {
   margin-top: 50px;
   cursor: pointer;
 }
-.header .image-container {
+.image-container {
   display: flex;
-  flex-direction: row;
   margin-top: 50px;
-  width: 70%;
-  height: 325px;
-  justify-content: space-between;
+  column-gap: 2vw;
 }
-.header .image-container img {
-  height: 100%;
-  width: auto;
+.header .image-container .img {
+  width: 20vw;
   border-radius: 10px;
 }
 
