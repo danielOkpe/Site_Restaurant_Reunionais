@@ -17,17 +17,16 @@ header {
   height: 120vh;
 }
 .navbar {
-  padding: 50px;
+  padding: 45px;
   display: flex;
   justify-content: space-between;
-  box-sizing: border-box;
   align-items: center;
 }
 
 .navbar .menu-hamberger {
   position: absolute;
   display: block;
-  top: 50px;
+  top: 45px;
   right: 50px;
   width: 35px;
   cursor: pointer;
@@ -45,10 +44,7 @@ header {
   top: 100px;
   right: 50px;
 }
-.mobile-menu {
-  display: flex;
-  flex-direction: column;
-}
+
 .navbar .nav-links ul {
   display: flex;
   flex-direction: column;
