@@ -62,9 +62,9 @@ const menuHamburger = document.querySelector(".menu-hamberger");
 const navLinks = document.querySelector(".nav-links");
 
 menuHamburger.addEventListener("click", () => {
-  if (navLinks.style.display === "none") {
-    navLinks.style.display = "block";
+  if (navLinks.style.visibility === "hidden") {
+    navLinks.style.visibility = "visible";
   } else {
-    navLinks.style.display = "none";
+    navLinks.style.visibility = "hidden";
   }
 });
