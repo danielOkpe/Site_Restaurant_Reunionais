@@ -57,3 +57,14 @@ function scrollToHistory() {
 
   scroll();
 }
+
+const menuHamburger = document.querySelector(".menu-hamberger");
+const navLinks = document.querySelector(".nav-links");
+
+menuHamburger.addEventListener("click", () => {
+  if (navLinks.style.display === "none") {
+    navLinks.style.display = "block";
+  } else {
+    navLinks.style.display = "none";
+  }
+});
