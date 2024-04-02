@@ -21,17 +21,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  display: none;
 }
 
 .navbar .menu-hamberger {
   position: absolute;
-  display: block;
   top: 45px;
   right: 50px;
   width: 35px;
   cursor: pointer;
-  display: none;
 }
 
 .navbar .logo {
