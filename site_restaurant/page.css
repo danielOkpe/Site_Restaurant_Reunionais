@@ -21,6 +21,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  display: none;
 }
 
 .navbar .menu-hamberger {
@@ -30,6 +31,7 @@ header {
   right: 50px;
   width: 35px;
   cursor: pointer;
+  display: none;
 }
 
 .navbar .logo {
@@ -59,6 +61,7 @@ header {
   display: flex;
   text-align: center;
   flex-direction: column;
+  background-color: #007200;
   align-items: center;
 }
 
@@ -121,7 +124,7 @@ header {
 }
 .container-contact .left {
   /*height: 100vh;*/
-  width: 45vw;
+  width: 25vw;
   border: 1px solid blue;
 }
 .container-contact iframe {
@@ -130,4 +133,8 @@ header {
 .container-contact .right {
   height: 50vh;
   width: 45vw;
+}
+
+.button {
+  display: blo;
 }
