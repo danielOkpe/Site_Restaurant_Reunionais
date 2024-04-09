@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="page.css" />
+    <link rel="stylesheet" href="hamburger_nav.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    
     <title>Document</title>
   </head>
   <body>
 
     <header>
       <nav class="navbar">
-        <a href="#" class="logo">Menu</a>
         <div class="nav-links">
           <ul>
           <li><a>Menu</a></li>
@@ -21,8 +25,6 @@
       <img src="../images/menu-btn.png" alt="menu hambuerger" class="menu-hamberger" id="menu-hamberger" >
 
       </nav>
-
-     
         <div class="header">
             <h1> Restaurant <br> Ile de la Réunion Dijon</h1>
             <button class="button" id="descover_btn" onclick="scrollToHistory()">
@@ -35,40 +37,46 @@
               <img src="/images/intérieur-droite.jpg" class="img">
               <img src="/images/devanture-droite.jpg" class="img">
             </div>
-
         </div>
     </header>
+
     <main>
-        <div class="container_introduction">
-            <div class="left">        
-                <h1>Restaurant Ile de la Réunion</h1>
+        <div class="container_introduction">       
+                <h1>Un restaurant réunionnais au coeur de Dijon !</h1>
+                <p>Goûtez à l'authenticité de la cuisine réunionnaise dans notre restaurant familial et chaleureux.<br>
+                  Depuis 26 ans, la passion de la propriétaire anime ce lieu unique où chaque plat est une invitation au voyage.<br>
+                  Inspirée par les traditions culinaires de son île natale, elle concocte des recettes savoureuses avec des produits frais et locaux, sélectionnés avec soin.<br>
+                  Le rougail saucisse, véritable incontournable, ravira vos papilles, tout comme les nombreux autres plats mijotés avec amour.<br>
+                  Au fil des saisons, découvrez une carte variée qui met à l'honneur les saveurs et les parfums de la Réunion.<br> <br>
+                  Le restaurant Ile de la Réunion, c'est : <br>
+                 - Une cuisine traditionnelle et authentique <br>
+                 - Des produits frais et locaux <br>
+                  Une ambiance familiale et conviviale <br>
+                  Une passionnée aux commandes <br>
+                  Venez nous rendre visite et laissez-vous transporter par la magie de la Réunion !</p>
                 <p id="history">
-                    
-Au cœur d'une petite rue pavée, au charme pittoresque, se dresse le restaurant "La Case Créole", un véritable havre de saveurs réunionnaises niché au cœur de la ville. Derrière ses volets colorés, se cache l'histoire captivante d'une femme passionnée par son île natale, la Réunion. C'est là que Marie-Claire, native de l'île, a décidé de donner vie à son rêve en ouvrant son propre établissement. La Case Créole n'est pas seulement un restaurant, mais une invitation au voyage culinaire, un hommage vibrant à la richesse et à la diversité de la cuisine réunionnaise. Les murs sont ornés de photographies évoquant les paysages envoûtants de l'île, tandis que les parfums envoûtants des épices et des plats mijotés emplissent l'air. Chaque plat raconte une histoire, transmettant les traditions ancestrales et l'authenticité des recettes transmises de génération en génération. Dans cet espace chaleureux et convivial, Marie-Claire accueille ses convives avec le sourire, partageant avec eux sa passion pour la cuisine réunionnaise. Les plats exquis, préparés avec soin et amour, transportent les clients dans un voyage gustatif inoubliable, où les saveurs exotiques se mêlent harmonieusement pour créer une expérience culinaire inégalée. Au fil des années, "La Case Créole" est devenu bien plus qu'un simple restaurant, c'est un lieu de rencontre, de partage et de découverte, où chaque visiteur repart avec le cœur empli de souvenirs et le palais émerveillé par tant de délices.</p>
-            </div>
-
-            <div class="right">
-            <img src="photo-du-restaurant">
-            <!-- des photos de l'intérieur du resto-->
-            </div>
-        </div>
-
-            
-        </div>
-
-        <div class="plats">
-            <!-- des cards avec les différents plats-->
-            <!-- un peu comme ça : (lien en dessous)-->
-            <!-- https://i.pinimg.com/originals/b6/4f/e3/b64fe318310ab64bd8ff4acef571c34f.jpg-->
 
         </div>
+
+          
+    
 
         <div class="container-contact">
-            <div class="left"></div>
-                <iframe class="right" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d692479.3504385265!2d3.8197628774095613!3d47.31438809730986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f29dc129d0a631%3A0xb2948970f626582e!2sRestaurant%20l&#39;Ile%20de%20la%20R%C3%A9union!5e0!3m2!1sfr!2sfr!4v1710882796293!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <!-- ca-->
-            <!-- 0380499344-->
+            <div class="left-contact">
+                <div class="phone_number">
+                  <img src="../icons/phone.png">
+                  <h1>TELEPHONE</h1>
+                </div>
+                <div class="instagram_links">
+                  <h3> arrive bientot...</h3>
+                </div>
+            </div>
+
+            <div class="right-contact">
+              <iframe class="right-contact" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d692479.3504385265!2d3.8197628774095613!3d47.31438809730986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f29dc129d0a631%3A0xb2948970f626582e!2sRestaurant%20l&#39;Ile%20de%20la%20R%C3%A9union!5e0!3m2!1sfr!2sfr!4v1710882796293!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
+
     </main>
     <script src="index.js"></script>
   </body>

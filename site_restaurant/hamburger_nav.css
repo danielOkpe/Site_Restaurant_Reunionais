@@ -1,0 +1,39 @@
+
+.navbar {
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .menu-hamberger {
+    position: absolute;
+    top: 45px;
+    right: 50px;
+    width: 35px;
+    cursor: pointer;
+  }
+  
+  .navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+  }
+  .navbar .nav-links {
+    position: absolute;
+    visibility: hidden;
+    top: 100px;
+    right: 50px;
+  }
+  
+  .navbar .nav-links ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar .nav-links ul li {
+    margin: 25px 0;
+  }
+  .navbar .nav-links ul li a {
+    color: white;
+  }
+  
