@@ -54,7 +54,7 @@ header {
 }
 
 .container_introduction {
-  height: 100vh;
+  height: 75vh;
   text-align: center;
 }
 .container_introduction h1{
@@ -71,6 +71,33 @@ header {
   font-size: 25px;
   line-height: 1.3;
 }
+.food{
+  height: 90vh;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.food .card-food{
+  height: 40%;
+  width: 360px;
+  border-radius: 10px;
+}
+.food .card-food img{
+  width: auto;
+  height: 100%;
+  border-radius: 10px;
+
+}
+
+
+
+
 .container-contact {
   display: flex;
   justify-content: space-between;
@@ -78,7 +105,8 @@ header {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100000px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .container-contact .left-contact{
   display: flex;
@@ -86,12 +114,21 @@ header {
   justify-content: space-between;
 }
 .container-contact .left-contact div{
-  background: rgba( 18, 75, 42, 1 );
+  background: rgba( 255, 255, 255, 0.65 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 20px );
-  -webkit-backdrop-filter: blur( 20px );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
   border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   width: 45%; 
+}
+.container-contact .left-contact div h3{
+  margin-top: 30px;
+  font-size: 30px
+  ;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .container-contact .right-contact{
   width: 60%;
