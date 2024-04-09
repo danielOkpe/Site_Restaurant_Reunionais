@@ -4,101 +4,125 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="page.css" />
-    <link rel="stylesheet" href="hamburger_nav.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="hamburger_nav.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Document</title>
   </head>
   <body>
-
     <header>
       <nav class="navbar">
         <div class="nav-links">
           <ul>
-          <li><a>Menu</a></li>
-          <li><a>Menu</a></li> 
-          <li><a>Menu</a></li>
-        </ul>
-      </div>
-      <img src="../images/menu-btn.png" alt="menu hambuerger" class="menu-hamberger" id="menu-hamberger" >
-
-      </nav>
-        <div class="header">
-            <h1> Restaurant <br> Ile de la Réunion Dijon</h1>
-            <button class="button" id="descover_btn" onclick="scrollToHistory()">
-               DECOUVRIR
-            </button>
-
-            <div class="image-container">
-              <img src="/images/Carte_Réunion_vide.jpg" class="img">
-              <img src="/images/pancarte.jpg" class="img">
-              <img src="/images/intérieur-droite.jpg" class="img">
-              <img src="/images/devanture-droite.jpg" class="img">
-            </div>
+            <li><a>Menu</a></li>
+            <li><a>Menu</a></li>
+            <li><a>Menu</a></li>
+          </ul>
         </div>
+        <img
+          src="../images/menu-btn.png"
+          alt="menu hambuerger"
+          class="menu-hamberger"
+          id="menu-hamberger"
+        />
+      </nav>
+      <div class="header">
+        <h1>
+          Restaurant <br />
+          Ile de la Réunion Dijon
+        </h1>
+        <button class="button" id="descover_btn" onclick="scrollToHistory()">
+          DECOUVRIR
+        </button>
+
+        <div class="image-container">
+          <img src="/images/Carte_Réunion_vide.jpg" class="img" />
+          <img src="/images/pancarte.jpg" class="img" />
+          <img src="/images/intérieur-droite.jpg" class="img" />
+          <img src="/images/devanture-droite.jpg" class="img" />
+        </div>
+      </div>
     </header>
 
     <main>
-        <div class="container_introduction">       
-                <h1>Un restaurant réunionnais au coeur de Dijon !</h1>
-                <p>Goûtez à l'authenticité de la cuisine réunionnaise dans notre restaurant familial et chaleureux.<br>
-                  Depuis 26 ans, la passion de la propriétaire anime ce lieu unique où chaque plat est une invitation au voyage.<br>
-                  Inspirée par les traditions culinaires de son île natale, elle concocte des recettes savoureuses avec des produits frais et locaux, sélectionnés avec soin.<br>
-                  Le rougail saucisse, véritable incontournable, ravira vos papilles, tout comme les nombreux autres plats mijotés avec amour.<br>
-                  Au fil des saisons, découvrez une carte variée qui met à l'honneur les saveurs et les parfums de la Réunion.<br> <br>
-                  Le restaurant Ile de la Réunion, c'est : <br>
-                 - Une cuisine traditionnelle et authentique <br>
-                 - Des produits frais et locaux <br>
-                 - Une ambiance familiale et conviviale <br>
-                  - Une passionnée aux commandes <br>
-                  Venez déjeuner et laissez-vous transporter par la magie de la Réunion !</p>
-                <p id="history">
+      <div class="container_introduction">
+        <h1>Un restaurant réunionnais au coeur de Dijon !</h1>
+        <p>
+          Goûtez à l'authenticité de la cuisine réunionnaise dans notre
+          restaurant familial et chaleureux.<br />
+          Depuis 26 ans, la passion de la propriétaire anime ce lieu unique où
+          chaque plat est une invitation au voyage.<br />
+          Inspirée par les traditions culinaires de son île natale, elle
+          concocte des recettes savoureuses avec des produits frais et locaux,
+          sélectionnés avec soin.<br />
+          Le rougail saucisse, véritable incontournable, ravira vos papilles,
+          tout comme les nombreux autres plats mijotés avec amour.<br />
+          Au fil des saisons, découvrez une carte variée qui met à l'honneur les
+          saveurs et les parfums de la Réunion.<br />
+          <br />
+          Le restaurant Ile de la Réunion, c'est : <br />
+          - Une cuisine traditionnelle et authentique <br />
+          - Des produits frais et locaux <br />
+          - Une ambiance familiale et conviviale <br />
+          - Une passionnée aux commandes <br />
+          Venez déjeuner et laissez-vous transporter par la magie de la Réunion
+          !
+        </p>
+        <p id="history"></p>
+      </div>
 
+      <div class="food">
+        <div class="card-food">
+          <img src="/food_img/1.jpg" />
+        </div>
+        <div class="card-food">
+          <img src="/food_img/2.jpg" />
+        </div>
+        <div class="card-food">
+          <img src="/food_img/3.jpg" />
+        </div>
+        <div class="card-food">
+          <img src="/food_img/4.jpg" />
+        </div>
+        <div class="card-food">
+          <img src="/food_img/5.jpg" />
+        </div>
+        <div class="card-food">
+          <img src="/food_img/6.jpg" />
+        </div>
+        <div class="card-food">
+          <img src="/food_img/7.jpg" />
+        </div>
+      </div>
+
+      <div class="container-contact">
+        <div class="left-contact">
+          <div class="phone_number">
+            <img src="/icons/phone.png" />
+            <h3>03.80.49.93.44</h3>
+          </div>
+          <div class="instagram_links">
+            <img src="/icons/instagram.png" />
+            <h3>arrive bientot...</h3>
+          </div>
         </div>
 
-        <div class="food">
-          <div class="card-food">
-            <img src="/food img/1.jpg">
-          </div>
-          <div class="card-food">
-            <img src="/food img/2.jpg">
-          </div>
-          <div class="card-food">
-            <img src="/food img/3.jpg">
-          </div>
-          <div class="card-food">
-            <img src="/food img/4.jpg"> 
-          </div>
-          <div class="card-food">
-            <img src="/food img/5.jpg">
-          </div>
-          <div class="card-food">
-            <img src="/food img/6.jpg">
-          </div>
-          <div class="card-food">
-            <img src="/food img/7.jpg">
-          </div>
+        <div class="right-contact">
+          <iframe
+            class="right-contact"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d692479.3504385265!2d3.8197628774095613!3d47.31438809730986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f29dc129d0a631%3A0xb2948970f626582e!2sRestaurant%20l&#39;Ile%20de%20la%20R%C3%A9union!5e0!3m2!1sfr!2sfr!4v1710882796293!5m2!1sfr!2sfr"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
-
-        <div class="container-contact">
-            <div class="left-contact">
-                <div class="phone_number">
-                  <img src="/icons/phone.png">
-                  <h3>03.80.49.93.44</h3>
-                </div>
-                <div class="instagram_links">
-                  <img src="/icons/instagram.png">
-                  <h3> arrive bientot...</h3>
-                </div>
-            </div>
-
-            <div class="right-contact">
-              <iframe class="right-contact" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d692479.3504385265!2d3.8197628774095613!3d47.31438809730986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f29dc129d0a631%3A0xb2948970f626582e!2sRestaurant%20l&#39;Ile%20de%20la%20R%C3%A9union!5e0!3m2!1sfr!2sfr!4v1710882796293!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-
+      </div>
     </main>
     <script src="index.js"></script>
   </body>
