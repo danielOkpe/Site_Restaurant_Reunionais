@@ -70,9 +70,18 @@ header {
   font-size: 25px;
   line-height: 1.3;
 }
+
+.nos_menus {
+  font-size: 3em;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #b70e0a;
+}
+
 .food {
-  height: 90vh;
-  width: 90%;
+  margin-top: 20px;
+  width: 70%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 3vh;
@@ -81,7 +90,6 @@ header {
   justify-content: space-around; /*je trouve ce truc rend mieux*/
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
 }
 .food .card-food {
   height: 90%;
@@ -94,6 +102,15 @@ header {
   border-radius: 10px;
 }
 
+.find_us {
+  margin-top: 70px;
+  font-size: 3em;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #b70e0a;
+}
+
 .container-contact {
   display: flex;
   justify-content: space-around;
@@ -101,7 +118,7 @@ header {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 500px;
+  margin-top: 20px;
   margin-bottom: 100px;
 }
 .container-contact .left-contact {
