@@ -15,7 +15,7 @@ header {
   background-color: #124b2a;
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 115vh;
 }
 .header {
   display: flex;
@@ -42,12 +42,14 @@ header {
   cursor: pointer;
 }
 .image-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   margin-top: 50px;
-  column-gap: 2vw;
+  column-gap: 3vh;
 }
 .header .image-container .img {
-  width: 15vw;
+  width: 35vh;
+  height: 45vh;
   border-radius: 10px;
 }
 
@@ -71,18 +73,19 @@ header {
 .food {
   height: 90vh;
   width: 90%;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   row-gap: 3vh;
   align-items: flex-start;
   flex-wrap: wrap;
   justify-content: space-around; /*je trouve ce truc rend mieux*/
   margin-left: auto;
   margin-right: auto;
+  width: 70%;
 }
 .food .card-food {
-  height: 40%;
-  width: 360px;
+  height: 90%;
+  width: 90%;
   border-radius: 10px;
 }
 .food .card-food img {
@@ -93,12 +96,12 @@ header {
 
 .container-contact {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 40vh;
   width: 95%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 500px;
   margin-bottom: 100px;
 }
 .container-contact .left-contact {
