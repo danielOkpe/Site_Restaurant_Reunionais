@@ -174,7 +174,15 @@ header {
   .header .image-container .img {
     display: none;
   }
-
+  p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nos_menus {
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
   .container-contact {
     flex-direction: column;
   }
@@ -182,12 +190,61 @@ header {
   .left-contact {
     flex-direction: column;
     row-gap: 2vh;
-    margin: 1vh auto;
+    margin: 0 20vw;
   }
   .left-contact div {
-    width: 20vh;
+    min-height: 36vh;
+    min-width: 38vh;
+    margin-left: auto;
+    margin-right: auto;
   }
+  .food {
+    margin: 2px auto;
+  }
+  .find_us {
+    margin-bottom: 520px;
+    margin-top: 200px;
+  }
+
   .right-contact {
     margin: 2vh auto;
+    min-width: 90%;
+    min-height: 90%;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .right-contact div {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nos_menus {
+    margin-top: 700px;
+  }
+  .food {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .food .card-food {
+    margin-left: 4vw;
+    margin-right: auto;
+  }
+  .left-contact {
+    margin-left: 7vw;
+  }
+  .find_us {
+    margin-bottom: 430px;
+  }
+
+  .container_introduction h1 {
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header h1 {
+    font-size: 3.5em;
   }
 }
