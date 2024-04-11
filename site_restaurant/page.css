@@ -78,6 +78,7 @@ header {
   font-weight: 400;
   font-style: normal;
   color: #b70e0a;
+  margin-top: 40px;
 }
 
 .food {
@@ -159,10 +160,6 @@ header {
 /*responsive*/
 
 @media screen and (max-width: 1050px) {
-  .image-container {
-    grid-template-columns: repeat(1, 1fr);
-    row-gap: 2vh;
-  }
   .header {
     justify-content: center;
   }
@@ -202,8 +199,8 @@ header {
     margin: 2px auto;
   }
   .find_us {
-    margin-bottom: 520px;
-    margin-top: 200px;
+    margin-bottom: 600px;
+    margin-top: 280px;
   }
 
   .right-contact {
@@ -220,6 +217,39 @@ header {
   }
 }
 
+@media screen and (max-width: 1050px) and (max-height: 620px) {
+  .nos_menus {
+    margin-top: 400px;
+  }
+  .find_us {
+    margin-bottom: 230px;
+    margin-top: 280px;
+  }
+  .left-contact {
+    flex-direction: row;
+    column-gap: 10vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nos_menus {
+    margin-top: 20px;
+  }
+  .find_us {
+    margin-bottom: 570px;
+    margin-top: 280px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nos_menus {
+    margin-top: 620px;
+  }
+  .find_us {
+    margin-bottom: 360px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .nos_menus {
     margin-top: 700px;
@@ -232,7 +262,7 @@ header {
     margin-right: auto;
   }
   .left-contact {
-    margin-left: 7vw;
+    margin-left: 6vw;
   }
   .find_us {
     margin-bottom: 430px;
@@ -246,5 +276,56 @@ header {
 
   .header h1 {
     font-size: 3.5em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nos_menus {
+    margin-top: 1000px;
+  }
+  .header h1 {
+    font-size: 3em;
+  }
+  .header .button {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 530;
+  }
+  .title {
+    width: auto;
+    font-size: 35px;
+  }
+
+  .container_introduction .title {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .left-contact {
+    margin-left: 14vw;
+  }
+}
+@media screen and (max-width: 365px) {
+  .left-contact {
+    margin-left: 8vw;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .nos_menus {
+    margin-top: 1400px;
+  }
+
+  .left-contact {
+    margin-left: 3.5vw;
+  }
+  .left-contact div {
+    min-width: 20px;
+    min-height: 20px;
+  }
+  .find_us {
+    margin-bottom: 245px;
   }
 }
