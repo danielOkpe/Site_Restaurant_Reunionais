@@ -41,6 +41,10 @@ header {
   margin-top: 50px;
   cursor: pointer;
   font-weight: bold;
+  transition: 0.1s;
+}
+.button:hover {
+  scale: 1.1;
 }
 .image-container {
   display: grid;
@@ -52,6 +56,16 @@ header {
   width: 35vh;
   height: 45vh;
   border-radius: 10px;
+  animation: rotation 0.5s 2 alternate;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
 }
 
 .container_introduction {
@@ -97,7 +111,13 @@ header {
   height: 90%;
   width: 90%;
   border-radius: 10px;
+  transition: 0.2s cubic-bezier(0.61, -0.3, 0.12, 1.55);
 }
+
+.card-food:hover {
+  scale: 1.1;
+}
+
 .food .card-food img {
   width: 100%;
   height: 100%;
