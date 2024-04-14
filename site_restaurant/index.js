@@ -69,7 +69,6 @@ function scrollToHistory() {
 function openModal(index) {
   modal.style.display = "block";
   overlay.style.display = "block";
-  console.log("la modal est ouverte !");
   setName(index);
   nomPlat.innerHTML = dishName;
   modalImg.style.backgroundImage = "url('/food_img/" + index + ".jpg')";
@@ -82,7 +81,6 @@ function closeModal() {
   const overlay = document.getElementById("overlay");
   modal.style.display = "none";
   overlay.style.display = "none";
-  console.log("la modal est fermé !");
 }
 
 function setName(i) {
