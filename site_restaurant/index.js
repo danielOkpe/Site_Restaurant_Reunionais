@@ -107,7 +107,6 @@ function setName(i) {
       break;
     case 7:
       dishName = "namPlat 7";
-      break;
   }
 }
 
@@ -133,6 +132,5 @@ function setDescription(i) {
       break;
     case 7:
       descriptionPlat = "description 7";
-      break;
   }
 }
