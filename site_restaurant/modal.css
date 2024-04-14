@@ -1,0 +1,70 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 650px;
+  height: 550px;
+  background-color: aliceblue;
+  border-radius: 3px;
+  z-index: 1;
+  display: none;
+  transform: translate(-50%, -50%);
+  animation: slideDown 0.3s ease-in;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translate(-50%, -100%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+.modal_img {
+  height: 350px;
+  width: 450px;
+  border-radius: 10px;
+  margin: 2vh auto;
+  background-size: cover;
+}
+
+.modal_close {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  background-color: red;
+  color: white;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  border: none;
+}
+
+#nom_plat {
+  margin-top: 20px;
+}
+
+.fermer {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 3px;
+  background-color: #3f51b5;
+  border: none;
+  color: white;
+  margin-top: 10px;
+}
+
+.fermer:hover {
+  background-color: #303f9f;
+}

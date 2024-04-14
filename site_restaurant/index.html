@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="page.css" />
+    <link rel="stylesheet" href="modal.css" />
     <link rel="stylesheet" href="hamburger_nav.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -62,26 +63,44 @@
 
       <h1 id="history" class="nos_menus title">Nos Plats</h1>
 
+      <div onclick="closeModal()" id="overlay" class="overlay"></div>
+      <div id="modal" class="modal">
+        <div onclick="closeModal()">
+          <button class="modal_close">X</button>
+        </div>
+        <div class="modal_header"><h1 id="nom_plat">Nom du plat</h1></div>
+        <div id="modal_img" class="modal_img"></div>
+        <div class="modal_description">
+          <p id="description_plat">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+            consequuntur sed voluptatem tempora, quia, sapiente sit nemo id
+            repellendus ullam veniam accusantium nam. Nulla enim expedita
+            tenetur accusantium ut quae.
+          </p>
+        </div>
+        <button onclick="closeModal()" class="fermer">Fermer</button>
+      </div>
+
       <div class="food">
-        <div class="card-food">
+        <div onclick="openModal(1)" class="card-food">
           <img src="/food_img/1.jpg" />
         </div>
-        <div class="card-food">
+        <div onclick="openModal(2)" class="card-food">
           <img src="/food_img/2.jpg" />
         </div>
-        <div class="card-food">
+        <div onclick="openModal(3)" class="card-food">
           <img src="/food_img/3.jpg" />
         </div>
-        <div class="card-food">
+        <div onclick="openModal(4)" class="card-food">
           <img src="/food_img/4.jpg" />
         </div>
-        <div class="card-food">
+        <div onclick="openModal(5)" class="card-food">
           <img src="/food_img/5.jpg" />
         </div>
-        <div class="card-food">
+        <div onclick="openModal(6)" class="card-food">
           <img src="/food_img/6.jpg" />
         </div>
-        <div class="card-food">
+        <div onclick="openModal(7)" class="card-food">
           <img src="/food_img/7.jpg" />
         </div>
       </div>
