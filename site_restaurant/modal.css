@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
 }
@@ -13,7 +13,7 @@
   top: 50%;
   left: 50%;
   width: 700px;
-  height: 580px;
+  height: 72vh;
   background-color: aliceblue;
   border-radius: 3px;
   z-index: 1;
@@ -32,8 +32,8 @@
 }
 
 .modal_img {
-  height: 400px;
-  width: 500px;
+  height: 49vh;
+  width: 460px;
   border-radius: 10px;
   margin: 2vh auto;
   background-size: cover;
@@ -68,4 +68,91 @@
 
 .fermer:hover {
   background-color: #303f9f;
+}
+
+/*responsive*/
+
+@media screen and (max-width: 800px) and (max-height: 1025px) {
+  .fermer {
+    padding: 15px 50px;
+    font-size: 20px;
+  }
+  .modal_close {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .modal {
+    width: 500px;
+  }
+
+  .modal_img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-height: 1368px) and (max-width: 1025px) {
+  .modal_img {
+    width: 600px;
+  }
+  .modal_close {
+    width: 55px;
+    height: 55px;
+  }
+  .fermer {
+    padding: 25px 90px;
+    font-size: 20px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .fermer {
+    padding: 8px 30px;
+    font-size: 20px;
+  }
+  .modal_img {
+    width: 400px;
+  }
+  .modal_close {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .modal {
+    width: 360px;
+  }
+  .modal_img {
+    max-width: 360px;
+    border-radius: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .modal {
+    width: 350px;
+  }
+  .modal_img {
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .modal {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .modal {
+    width: 270px;
+  }
+  .modal_img {
+    max-width: 270px;
+  }
 }
