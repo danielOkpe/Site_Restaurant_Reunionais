@@ -87,25 +87,35 @@ function closeModal() {
 function setName(i) {
   switch (i) {
     case 1:
-      dishName = "namPlat 1"; // il faut remplacer  "namPlat 1" par le nom du plat de la première photo en partant de la gauche
+      dishName = "nomPlat 1"; // il faut remplacer  "namPlat 1" par le nom du plat de la première photo en partant de la gauche
       break;
     case 2:
-      dishName = "namPlat 2";
+      dishName = "nomPlat 2";
       break;
     case 3:
-      dishName = "namPlat 3";
+      dishName = "nomPlat 3";
       break;
     case 4: //on fait pareil pour tout les noms de plats
-      dishName = "namPlat 4";
+      dishName = "nomPlat 4";
       break;
     case 5:
-      dishName = "namPlat 5";
+      dishName = "nomPlat 5";
       break;
     case 6:
-      dishName = "namPlat 6";
+      dishName = "nomPlat 6";
       break;
     case 7:
-      dishName = "namPlat 7";
+      dishName = "nomPlat 7";
+      break;
+    case 8:
+      dishName = "nomPlat 8";
+      break;
+    case 9:
+      dishName = "nomPlat 9";
+      break;
+    case 10:
+      dishName = "nomPlat 10";
+      break;
   }
 }
 
