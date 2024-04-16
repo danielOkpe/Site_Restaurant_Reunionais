@@ -178,6 +178,12 @@ header {
   height: 60px;
 }
 
+video{
+  height: 70vh;
+  width: auto;
+  border-radius: 10px;
+}
+
 /*responsive*/
 
 @media screen and (max-width: 1050px) {
