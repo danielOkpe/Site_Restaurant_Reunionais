@@ -142,5 +142,14 @@ function setDescription(i) {
       break;
     case 7:
       descriptionPlat = "description 7";
+
+    case 8:
+      descriptionPlat = "description 8";
+      break;
+    case 9:
+      descriptionPlat = "description 9";
+      break;
+    case 10:
+      descriptionPlat = "description 10";
   }
 }

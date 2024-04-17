@@ -68,17 +68,20 @@ header {
   }
 }
 
+h1 {
+  font-size: 3em;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #b70e0a;
+}
+
 .container_introduction {
   height: 75vh;
   text-align: center;
 }
 .container_introduction h1 {
   margin-top: 70px;
-  font-size: 3em;
-  font-family: "Lilita One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #b70e0a;
 }
 .container_introduction p {
   margin-top: 20px;
@@ -93,6 +96,48 @@ header {
   font-style: normal;
   color: #b70e0a;
   margin-top: 40px;
+}
+.card-food {
+  border: 1px solid blue;
+  height: 90%;
+  width: 90%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.nos_epices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+  width: 70%;
+  row-gap: 3vh;
+}
+
+.nos_epices .card-food img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.nos_entrees {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+  row-gap: 3vh;
+  width: 70%;
+}
+
+.nos_entrees .card-food img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+video {
+  margin-bottom: 200px;
 }
 
 .food {
@@ -178,7 +223,7 @@ header {
   height: 60px;
 }
 
-video{
+video {
   height: 70vh;
   width: auto;
   border-radius: 10px;
