@@ -87,31 +87,31 @@ function closeModal() {
 function setName(i) {
   switch (i) {
     case 1:
-      dishName = "nomPlat 1"; // il faut remplacer  "namPlat 1" par le nom du plat de la première photo en partant de la gauche
+      dishName = "Poulet massalé au pomme de terre"; // il faut remplacer  "namPlat 1" par le nom du plat de la première photo en partant de la gauche
       break;
     case 2:
-      dishName = "nomPlat 2";
+      dishName = "Rougail saucisse";
       break;
     case 3:
-      dishName = "nomPlat 3";
+      dishName = "Moule au combava";
       break;
     case 4: //on fait pareil pour tout les noms de plats
-      dishName = "nomPlat 4";
+      dishName = "Carry poulet";
       break;
     case 5:
-      dishName = "nomPlat 5";
+      dishName = "Poulet massalé";
       break;
     case 6:
-      dishName = "nomPlat 6";
+      dishName = "Poulet massalé au pomme de terre";
       break;
     case 7:
-      dishName = "nomPlat 7";
+      dishName = "Thon massalé aux légumes";
       break;
     case 8:
-      dishName = "nomPlat 8";
+      dishName = "Poulet vanille";
       break;
     case 9:
-      dishName = "nomPlat 9";
+      dishName = "Choux pointu";
       break;
     case 10:
       dishName = "nomPlat 10";
@@ -123,28 +123,36 @@ function setName(i) {
 function setDescription(i) {
   switch (i) {
     case 1:
-      descriptionPlat = "description 1";
+      descriptionPlat =
+        "Dégustez notre délicieux poulet massalé aux pommes de terre, où tendres morceaux de poulet et pommes de terre se marient harmonieusement dans un festival d'épices réunionnaises.";
       break;
     case 2:
-      descriptionPlat = "descrition 2";
+      descriptionPlat =
+        " Laissez-vous envoûter par la magie de la cuisine réunionnaise avec notre rougail saucisse, où des saucisses savoureuses sont mijotées dans une sauce tomate pimentée, relevée par des touches d'ail et d'oignon.";
       break;
     case 3:
-      descriptionPlat = "description 3";
+      descriptionPlat =
+        " Découvrez l'harmonie parfaite entre les moules fraîches et parfumées et le zeste citronné du combava dans ce plat délicat et raffiné. ";
       break;
     case 4: //il faut remplacer "description i" par les bonnes descriptions
-      descriptionPlat = "description 4";
+      descriptionPlat =
+        "Plongez dans un océan de saveurs avec notre carry poulet, où des morceaux de poulet tendres sont mijotés dans une sauce onctueuse et parfumée aux épices réunionnaises.";
       break;
     case 5:
-      descriptionPlat = "description 5";
+      descriptionPlat =
+        "Succombez à la tentation avec notre poulet massalé, où des morceaux de poulet tendres sont enrobés d'un mélange d'épices savamment dosé, offrant une explosion de saveurs à chaque bouchée.";
       break;
     case 6:
-      descriptionPlat = "description 6";
+      descriptionPlat =
+        "Dégustez notre délicieux poulet massalé aux pommes de terre, où tendres morceaux de poulet et pommes de terre se marient harmonieusement dans un festival d'épices réunionnaises.";
       break;
     case 7:
-      descriptionPlat = "description 7";
+      descriptionPlat =
+        "Laissez-vous séduire par cette fusion exotique de saveurs où le thon frais rencontre les légumes croquants dans une sauce massalé envoûtante.";
 
     case 8:
-      descriptionPlat = "description 8";
+      descriptionPlat =
+        "Explorez de nouveaux horizons gustatifs avec notre poulet vanille, où des morceaux de poulet juteux sont sublimés par la douceur envoûtante de la vanille.";
       break;
     case 9:
       descriptionPlat = "description 9";

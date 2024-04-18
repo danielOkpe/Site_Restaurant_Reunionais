@@ -12,14 +12,20 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 700px;
-  height: 72vh;
+  width: 800px;
+  height: 77vh;
   background-color: aliceblue;
   border-radius: 3px;
   z-index: 1;
   display: none;
   transform: translate(-50%, -50%);
   animation: slideDown 0.3s ease-in;
+}
+
+p {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @keyframes slideDown {
@@ -54,6 +60,7 @@
 
 #nom_plat {
   margin-top: 20px;
+  font-size: 40px;
 }
 
 .fermer {
@@ -63,7 +70,7 @@
   background-color: #3f51b5;
   border: none;
   color: white;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .fermer:hover {
@@ -81,11 +88,16 @@
     width: 20px;
     height: 20px;
   }
+
+  .modal {
+    height: 80vh;
+  }
 }
 
 @media screen and (max-width: 720px) {
   .modal {
     width: 500px;
+    height: 70vh;
   }
 
   .modal_img {
@@ -106,7 +118,37 @@
     font-size: 20px;
   }
   p {
-    font-size: 20px;
+    font-size: 28px;
+  }
+
+  #nom_plat {
+    font-size: 45px;
+  }
+
+  .modal {
+    height: 79vh;
+  }
+}
+
+@media screen and (max-width: 1025px) and (max-height: 601px) {
+  .modal_close {
+    width: 35px;
+    height: 35px;
+  }
+  p {
+    font-size: 18px;
+  }
+
+  #nom_plat {
+    font-size: 38px;
+  }
+
+  .modal {
+    height: 85vh;
+  }
+  .fermer {
+    padding: 10px 60px;
+    font-size: 16px;
   }
 }
 
@@ -122,37 +164,58 @@
     width: 30px;
     height: 30px;
   }
+  .modal {
+    height: 91vh;
+  }
+  #nom_plat {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .modal {
     width: 360px;
+    height: 88vh;
   }
   .modal_img {
     max-width: 360px;
     border-radius: 0;
   }
 }
+@media screen and (max-width: 380px) {
+  .modal {
+    height: 97vh;
+  }
+}
 
 @media screen and (max-width: 360px) {
   .modal {
     width: 350px;
+    height: 94vh;
   }
+
   .modal_img {
     max-width: 350px;
-  }
-}
-@media screen and (max-width: 380px) {
-  .modal {
-    height: 80vh;
   }
 }
 
 @media screen and (max-width: 280px) {
   .modal {
     width: 270px;
+    height: 96vh;
   }
   .modal_img {
     max-width: 270px;
+  }
+  #nom_plat {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 16px;
   }
 }
