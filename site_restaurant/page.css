@@ -156,11 +156,11 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
-.food .card-food {
+.card-food {
   height: 90%;
   width: 90%;
   border-radius: 10px;
-  transition: 0.2s cubic-bezier(0.61, -0.3, 0.12, 1.55);
+  transition: 0.4s cubic-bezier(0.61, -0.3, 0.12, 1.55);
   cursor: pointer;
 }
 
