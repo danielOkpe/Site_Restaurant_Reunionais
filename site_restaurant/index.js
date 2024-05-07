@@ -116,6 +116,18 @@ function setName(i) {
     case 10:
       dishName = "nomPlat 10";
       break;
+    case 11:
+      dishName = "nomPlat 10";
+      break;
+    case 12:
+      dishName = "nomPlat 10";
+      break;
+    case 13:
+      dishName = "nomPlat 10";
+      break;
+    case 14:
+      dishName = "nomPlat 10";
+      break;
   }
 }
 
@@ -158,6 +170,14 @@ function setDescription(i) {
       descriptionPlat = "description 9";
       break;
     case 10:
+      descriptionPlat = "description 10";
+    case 11:
+      descriptionPlat = "description 10";
+    case 12:
+      descriptionPlat = "description 10";
+    case 13:
+      descriptionPlat = "description 10";
+    case 14:
       descriptionPlat = "description 10";
   }
 }
