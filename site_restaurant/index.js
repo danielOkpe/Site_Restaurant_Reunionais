@@ -117,16 +117,16 @@ function setName(i) {
       dishName = "nomPlat 10";
       break;
     case 11:
-      dishName = "nomPlat 10";
+      dishName = "nomPlat 11";
       break;
     case 12:
-      dishName = "nomPlat 10";
+      dishName = "nomPlat 12";
       break;
     case 13:
-      dishName = "nomPlat 10";
+      dishName = "nomPlat 13";
       break;
     case 14:
-      dishName = "nomPlat 10";
+      dishName = "nomPlat 14";
       break;
   }
 }
@@ -167,7 +167,8 @@ function setDescription(i) {
         "Explorez de nouveaux horizons gustatifs avec notre poulet vanille, où des morceaux de poulet juteux sont sublimés par la douceur envoûtante de la vanille.";
       break;
     case 9:
-      descriptionPlat = "description 9";
+      descriptionPlat =
+        "Le chou pointu que nous utilisons dans nos plats est choisi avec soin, et cela se ressent dans sa qualité. Cueilli à maturité, il offre une fraîcheur et des saveurs authentiques qui enrichissent chaque plat.";
       break;
     case 10:
       descriptionPlat = "description 10";
