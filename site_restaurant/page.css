@@ -99,12 +99,6 @@ h1 {
   color: #b70e0a;
   margin-top: 40px;
 }
-.card-food {
-  height: 90%;
-  width: 90%;
-  border-radius: 10px;
-  cursor: pointer;
-}
 
 .nos_epices .card-food img {
   height: 100%;
@@ -132,24 +126,32 @@ video {
   margin-right: auto;
 }
 .card-food {
-  height: 35vh;
+  height: 40vh;
   border-radius: 10px;
   transition: 0.4s cubic-bezier(0.61, -0.3, 0.12, 1.55);
   cursor: pointer;
 }
 .video {
   height: 35vh;
+  width: 70vw;
   margin-right: 28px;
+  margin-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.samoussaa {
+  margin-bottom: 20px;
+}
 .samoussaa .card-food {
-  height: 35vh;
+  height: 52vh;
   border-radius: 10px;
 }
 
 .samoussaa .card-food img {
   height: 100%;
   width: 100%;
+  border-radius: 10px;
 }
 .card-food:hover {
   scale: 1.1;
@@ -176,9 +178,18 @@ section {
   width: 70%;
   margin-top: 20px;
   margin-bottom: 200px;
-  gap: 1vh;
+  gap: 3vh;
   margin-left: auto;
   margin-right: auto;
+}
+
+.nos_entrees {
+  grid-template-columns: repeat(1, 1fr);
+  width: 50vh;
+}
+
+.nos_entrees .card-food {
+  height: 50vh;
 }
 
 .container-contact {
@@ -333,6 +344,17 @@ video {
 
   section {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .nos_entrees {
+    width: 70%;
+  }
+  .nos_entrees .card-food {
+    height: 40vh;
+  }
+
+  .samoussaa .card-food {
+    height: 40vh;
   }
 
   .food {
