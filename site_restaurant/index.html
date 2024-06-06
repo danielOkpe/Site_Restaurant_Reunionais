@@ -74,18 +74,20 @@
           <img src="/food_img/16.jpg" />
         </div>
       </section>
-      <h1 class="prepa-samoussa">Une vidéo pour illustrer</h1>
-      <video
-        src="/video/prepa-samoussa.mp4"
-        type="video/mp4"
-        width="100px"
-        height="200px"
-        controls
-      ></video>
+      <h1 class="prepa-samoussa">Nos samoussas</h1>
+
       <section class="samoussaa">
         <div onclick="openModal(12)" class="card-food">
           <img src="/food_img/12.jpg" />
         </div>
+        <div class="video">
+          <video
+            src="/video/prepa-samoussa.mp4"
+            type="video/mp4"
+            controls
+          ></video>
+        </div>
+
         <div onclick="openModal(13)" class="card-food">
           <img src="/food_img/13.jpg" />
         </div>
@@ -99,8 +101,6 @@
           <img src="/food_img/14.jpg" />
         </div>
       </section>
-
-      <h1 id="history" class="nos_menus title">Nos Plats</h1>
 
       <div onclick="closeModal()" id="overlay" class="overlay"></div>
       <div id="modal" class="modal">
@@ -119,6 +119,8 @@
         </div>
         <button onclick="closeModal()" class="fermer">Fermer</button>
       </div>
+
+      <h1 id="history" class="nos_menus title">Nos Plats</h1>
 
       <div class="food">
         <div onclick="openModal(2)" class="card-food">

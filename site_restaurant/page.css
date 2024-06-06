@@ -80,6 +80,7 @@ h1 {
 .container_introduction {
   height: 75vh;
   text-align: center;
+  margin-bottom: 200px;
 }
 .container_introduction h1 {
   margin-top: 70px;
@@ -105,34 +106,10 @@ h1 {
   cursor: pointer;
 }
 
-.epices {
-  margin-top: 200px;
-}
-
-.nos_epices {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 200px;
-  width: 70%;
-  row-gap: 3vh;
-}
-
 .nos_epices .card-food img {
   height: 100%;
   width: 100%;
   border-radius: 10px;
-}
-
-.nos_entrees {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 200px;
-  row-gap: 3vh;
-  width: 70%;
 }
 
 .nos_entrees .card-food img {
@@ -146,7 +123,6 @@ video {
 }
 
 .food {
-  margin-top: 20px;
   width: 70%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -156,19 +132,24 @@ video {
   margin-right: auto;
 }
 .card-food {
-  height: 75%;
-  width: 88%;
+  height: 35vh;
   border-radius: 10px;
   transition: 0.4s cubic-bezier(0.61, -0.3, 0.12, 1.55);
   cursor: pointer;
-  border: #124b2a 1px solid;
 }
-.samoussaa {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  width: 50%;
-  height: 300px;
-  row-gap: 3vh;
+.video {
+  height: 35vh;
+  margin-right: 28px;
+}
+
+.samoussaa .card-food {
+  height: 35vh;
+  border-radius: 10px;
+}
+
+.samoussaa .card-food img {
+  height: 100%;
+  width: 100%;
 }
 .card-food:hover {
   scale: 1.1;
@@ -187,6 +168,17 @@ video {
   font-weight: 400;
   font-style: normal;
   color: #b70e0a;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 200px;
+  gap: 1vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container-contact {
@@ -233,8 +225,8 @@ video {
 }
 
 video {
-  height: 70vh;
-  width: auto;
+  height: 100%;
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -257,10 +249,7 @@ video {
     margin-left: auto;
     margin-right: auto;
   }
-  .nos_menus {
-    margin-top: 100px;
-    margin-bottom: 20px;
-  }
+
   .container-contact {
     flex-direction: column;
   }
@@ -314,15 +303,9 @@ video {
     flex-direction: row;
     column-gap: 10vh;
   }
-  .epices {
-    margin-top: 500px;
-  }
 }
 
 @media screen and (max-width: 900px) {
-  .nos_menus {
-    margin-top: 20px;
-  }
   .find_us {
     margin-bottom: 10px;
     margin-top: 280px;
@@ -330,9 +313,6 @@ video {
 }
 
 @media screen and (max-width: 800px) {
-  .nos_menus {
-    margin-top: 120px;
-  }
   .find_us {
     margin-bottom: 10px;
     margin-top: 180px;
@@ -340,16 +320,9 @@ video {
 }
 
 @media screen and (max-width: 600px) {
-  .nos_menus {
-    margin-top: 620px;
-  }
   .find_us {
     margin-bottom: 10px;
     margin-top: 230px;
-  }
-
-  .epices {
-    margin-top: 700px;
   }
 }
 
@@ -358,11 +331,7 @@ video {
     margin-top: 700px;
   }
 
-  .nos_entrees {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .nos_epices {
+  section {
     grid-template-columns: repeat(1, 1fr);
   }
 
@@ -395,9 +364,6 @@ video {
 }
 
 @media screen and (max-width: 400px) {
-  .nos_menus {
-    margin-top: 1000px;
-  }
   .header h1 {
     font-size: 3em;
   }
@@ -441,15 +407,6 @@ video {
 }
 
 @media screen and (max-width: 290px) {
-  .nos_menus {
-    margin-top: 800px;
-  }
-  .epices {
-    margin-top: 1400px;
-  }
-  .nos_epices {
-    margin-bottom: 180px;
-  }
   .left-contact {
     margin-left: 3.5vw;
   }
