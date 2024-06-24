@@ -114,19 +114,28 @@ function setName(i) {
       dishName = "Choux pointu";
       break;
     case 10:
-      dishName = "nomPlat 10";
+      dishName = "Epice vanille";
       break;
     case 11:
       dishName = "nomPlat 11";
       break;
     case 12:
-      dishName = "nomPlat 12";
+      dishName = "Samousaa au thon";
       break;
     case 13:
       dishName = "nomPlat 13";
       break;
     case 14:
-      dishName = "nomPlat 14";
+      dishName = "Combava";
+      break;
+    case 15:
+      dishName = "Epice cumin";
+      break;
+    case 16:
+      dishName = "D'autre ingrédients";
+      break;
+    case 17:
+      dishName = "Assiette de Samousaa";
       break;
   }
 }
@@ -171,14 +180,31 @@ function setDescription(i) {
         "Le chou pointu que nous utilisons dans nos plats est choisi avec soin, et cela se ressent dans sa qualité. Cueilli à maturité, il offre une fraîcheur et des saveurs authentiques qui enrichissent chaque plat.";
       break;
     case 10:
-      descriptionPlat = "description 10";
+      descriptionPlat =
+        "La vanille, véritable trésor de la Réunion, est une épice précieuse aux arômes doux et envoûtants. La vanille apporte une profondeur et une délicatesse incomparables. ";
+      break;
     case 11:
-      descriptionPlat = "description 10";
+      descriptionPlat = "description 11";
+      break;
     case 12:
-      descriptionPlat = "description 10";
+      descriptionPlat = "description 12";
+      break;
     case 13:
-      descriptionPlat = "description 10";
+      descriptionPlat = "description 13";
+      break;
     case 14:
-      descriptionPlat = "description 10";
+      descriptionPlat = "description 14";
+      break;
+    case 15:
+      descriptionPlat =
+        "Le cumin est une épice essentielle de notre cuisine réunionnaise, reconnue pour ses graines allongées et brunâtres.";
+      break;
+    case 16:
+      descriptionPlat =
+        "Voici une image d'autres ingrédients que vous pouvez retrouver dans nos plats";
+      break;
+    case 17:
+      descriptionPlat = "description 17";
+      break;
   }
 }

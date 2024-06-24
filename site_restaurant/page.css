@@ -24,38 +24,37 @@ header {
   height: 100vh;
   align-items: center;
 }
-.header .left_header{
+.header .left_header {
   width: 60%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.header .left_header nav ul{
+.header .left_header nav ul {
   display: flex;
   margin-left: 6vh;
 }
-.header .left_header nav ul li{
+.header .left_header nav ul li {
   padding: 0;
   color: white;
   font-family: "Lilita One", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
-.header .left_header nav ul img{
+.header .left_header nav ul img {
   height: 1%;
   width: auto;
 }
 
-.header .right_header{
+.header .right_header {
   width: 40%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
-.header .right_header img{
+.header .right_header img {
   height: 50%;
   width: auto;
   border-radius: 50%;
@@ -69,14 +68,14 @@ header {
   text-align: left;
   margin-left: 6vw;
 }
-.header .left_header p{
-  color:white ;
+.header .left_header p {
+  color: white;
   text-align: left;
   margin-left: 6vw;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 2vh;
-  font-style: normal;  
+  font-style: normal;
 }
 .header .button {
   height: 40px;
@@ -99,9 +98,8 @@ header {
   flex-direction: row;
   margin-left: 5vw;
   justify-content: flex-start;
-
 }
-.header .left_header  .image-container img {
+.header .left_header .image-container img {
   height: 35vh;
   width: auto;
   border-radius: 10px;
@@ -126,7 +124,9 @@ h1 {
   color: #b70e0a;
   margin-bottom: 20px;
 }
-
+p {
+  font-size: 20px;
+}
 .container_introduction {
   height: 75vh;
   text-align: center;
