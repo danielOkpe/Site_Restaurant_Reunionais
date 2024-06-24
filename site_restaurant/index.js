@@ -120,10 +120,10 @@ function setName(i) {
       dishName = "nomPlat 11";
       break;
     case 12:
-      dishName = "Samousaa au thon";
+      dishName = "Carry Ti-Jacques";
       break;
     case 13:
-      dishName = "nomPlat 13";
+      dishName = "Massalé";
       break;
     case 14:
       dishName = "Combava";
@@ -136,6 +136,9 @@ function setName(i) {
       break;
     case 17:
       dishName = "Assiette de Samousaa";
+      break;
+      case 18:
+      dishName = "Ti-Jacques";
       break;
   }
 }
