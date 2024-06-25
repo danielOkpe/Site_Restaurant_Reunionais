@@ -134,7 +134,6 @@ p {
 }
 .container_introduction h1 {
   margin-top: 70px;
-
 }
 .container_introduction p {
   margin-top: 20px;
@@ -151,7 +150,7 @@ p {
   margin-top: 40px;
 }
 
-h1{
+h1 {
   margin-left: 6vw;
 }
 .nos_epices .card-food img {
@@ -187,7 +186,7 @@ video {
 }
 .video {
   height: 35vh;
-  width: 70vw;
+  width: 23vw;
   margin-right: 28px;
   margin-bottom: 200px;
   margin-left: auto;
@@ -242,6 +241,9 @@ section {
   width: 50vh;
 }
 
+.ti-jacque .card-food {
+  height: 50vh;
+}
 .nos_entrees .card-food {
   height: 50vh;
 }

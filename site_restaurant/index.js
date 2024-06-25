@@ -126,10 +126,10 @@ function setName(i) {
       dishName = "Massalé";
       break;
     case 14:
-      dishName = "Combava";
+      dishName = "Caloupilé";
       break;
     case 15:
-      dishName = "Epice cumin";
+      dishName = "Massalé";
       break;
     case 16:
       dishName = "D'autre ingrédients";
@@ -137,7 +137,7 @@ function setName(i) {
     case 17:
       dishName = "Assiette de Samousaa";
       break;
-      case 18:
+    case 18:
       dishName = "Ti-Jacques";
       break;
   }
