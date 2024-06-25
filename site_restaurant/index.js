@@ -123,7 +123,7 @@ function setName(i) {
       dishName = "Carry Ti-Jacques";
       break;
     case 13:
-      dishName = "Massalé";
+      dishName = "Samousaa";
       break;
     case 14:
       dishName = "Caloupilé";
@@ -190,17 +190,20 @@ function setDescription(i) {
       descriptionPlat = "description 11";
       break;
     case 12:
-      descriptionPlat = "description 12";
+      descriptionPlat =
+        "Le carry ti Jacques, plat emblématique de la Réunion, combine pois carré, épices, tomates et oignons, mijoté pour une saveur riche. Servi avec du riz blanc, il reflète l'authenticité culinaire de l'île.";
       break;
     case 13:
-      descriptionPlat = "description 13";
+      descriptionPlat =
+        "Les samoussas croustillants, offerts en plusieurs saveurs allant de la viande aux légumes, sont une spécialité incontournable de notre restaurant réunionnais.";
       break;
     case 14:
-      descriptionPlat = "description 14";
+      descriptionPlat =
+        "Le caloupilé, feuille aromatique réunionnaise, rehausse nos plats de son goût unique et authentique, essentiel dans la cuisine traditionnelle de l'île.";
       break;
     case 15:
       descriptionPlat =
-        "Le cumin est une épice essentielle de notre cuisine réunionnaise, reconnue pour ses graines allongées et brunâtres.";
+        "Le massalé, mélange d'épices réunionnais, parfume nos plats de viande ou de poisson, offrant une explosion de saveurs typiques de l'île.";
       break;
     case 16:
       descriptionPlat =
@@ -208,6 +211,10 @@ function setDescription(i) {
       break;
     case 17:
       descriptionPlat = "description 17";
+      break;
+    case 18:
+      descriptionPlat =
+        "Le ti Jacques, est une légumineuse réunionnaise dont la disponibilité varie selon les saisons. Notre restaurant ne prend que des ingrédients de saison pour offrir des plats traditionnels frais et authentiques toute l'année.";
       break;
   }
 }
