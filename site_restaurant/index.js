@@ -123,7 +123,7 @@ function setName(i) {
       dishName = "Carry Ti-Jacques";
       break;
     case 13:
-      dishName = "Samousaa";
+      dishName = "Samousas";
       break;
     case 14:
       dishName = "Caloupilé";
