@@ -117,7 +117,7 @@ function setName(i) {
       dishName = "Epice vanille";
       break;
     case 11:
-      dishName = "nomPlat 11";
+      dishName = "Achard de légume et samousas";
       break;
     case 12:
       dishName = "Carry Ti-Jacques";
@@ -139,6 +139,12 @@ function setName(i) {
       break;
     case 18:
       dishName = "Ti-Jacques";
+      break;
+    case 19:
+      dishName = "Samoussas";
+      break;
+    case 20:
+      dishName = "Rougail Morue";
       break;
   }
 }
@@ -187,7 +193,8 @@ function setDescription(i) {
         "La vanille, véritable trésor de la Réunion, est une épice précieuse aux arômes doux et envoûtants. La vanille apporte une profondeur et une délicatesse incomparables. ";
       break;
     case 11:
-      descriptionPlat = "description 11";
+      descriptionPlat =
+        "L'achard de légumes et samoussas est une entrée colorée et savoureuse, combinant des légumes croquants marinés et une variété de samoussas aux multiples saveurs.";
       break;
     case 12:
       descriptionPlat =
@@ -215,6 +222,13 @@ function setDescription(i) {
     case 18:
       descriptionPlat =
         "Le ti Jacques, est une légumineuse réunionnaise dont la disponibilité varie selon les saisons. Notre restaurant ne prend que des ingrédients de saison pour offrir des plats traditionnels frais et authentiques toute l'année.";
+      break;
+    case 19:
+      descriptionPlat = "Voici nos samoussas avant de les faire cuire.";
+      break;
+    case 20:
+      descriptionPlat =
+        "Le rougail morue est un plat réunionnais traditionnel, alliant de la morue salée à une sauce épicée à base de tomates, d'oignons et de piments.";
       break;
   }
 }
