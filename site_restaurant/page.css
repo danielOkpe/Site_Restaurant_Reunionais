@@ -119,7 +119,6 @@ section {
   grid-template-columns: repeat(3, 1fr);
   width: 70%;
   margin-top: 20px;
-  margin-bottom: 200px;
   gap: 3vh;
   row-gap: 1vh;
   margin-left: auto;
@@ -161,6 +160,10 @@ p {
   margin-top: 40px;
 }
 
+.nos_epices {
+  margin-bottom: 200px;
+}
+
 .nos_epices .card-food img {
   height: 100%;
   width: 100%;
@@ -180,6 +183,7 @@ p {
   row-gap: 3vh;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 3vh;
 }
 .card-food {
   height: 40vh;
@@ -189,7 +193,7 @@ p {
 }
 .video {
   height: 40vh;
-  width: 23vw;
+  width: 17vw;
   margin-right: 28px;
   margin-left: auto;
   margin-right: auto;
@@ -197,6 +201,8 @@ p {
 
 .samoussaa {
   margin-bottom: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 200px;
 }
 .samoussaa .card-food {
   height: 40vh;
@@ -242,6 +248,21 @@ p {
   height: 40vh;
 }
 .ti-jacque .card-food img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.mer {
+  margin-bottom: 0;
+  grid-template-columns: repeat(2, 1fr);
+  width: 45%;
+  margin: auto;
+  margin-bottom: 200px;
+}
+.mer .card-food {
+  height: 40vh;
+}
+.mer .card-food img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -405,11 +426,30 @@ video {
   .nos_entrees .card-food {
     height: 40vh;
   }
-
+  .samoussaa {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .samoussaa .card-food {
     height: 40vh;
   }
 
+  .samoussaa .video {
+    width: 70vw;
+  }
+
+  .ti-jacque {
+    grid-template-columns: repeat(1, 1fr);
+    width: 65vw;
+    margin: 0 auto;
+    row-gap: 3vh;
+    margin-bottom: 3vh;
+  }
+  .mer {
+    grid-template-columns: repeat(1, 1fr);
+    width: 65vw;
+    row-gap: 3vh;
+    margin-top: 3vh;
+  }
   .food {
     grid-template-columns: repeat(1, 1fr);
   }
