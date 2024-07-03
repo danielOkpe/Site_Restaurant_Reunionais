@@ -177,9 +177,9 @@ p {
 }
 
 .food {
-  width: 70%;
+  width: 45%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   row-gap: 3vh;
   margin-left: auto;
   margin-right: auto;
@@ -201,7 +201,7 @@ p {
 
 .samoussaa {
   margin-bottom: 20px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin-bottom: 200px;
 }
 .samoussaa .card-food {
@@ -254,10 +254,10 @@ p {
 }
 .mer {
   margin-bottom: 0;
-  grid-template-columns: repeat(2, 1fr);
-  width: 45%;
+  grid-template-columns: repeat(3, 1fr);
+  width: 60%;
   margin: auto;
-  margin-bottom: 200px;
+  margin-bottom: 3vh;
 }
 .mer .card-food {
   height: 40vh;

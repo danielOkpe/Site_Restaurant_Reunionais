@@ -228,7 +228,7 @@ function setDescription(i) {
       break;
     case 20:
       descriptionPlat =
-        "Le rougail morue est un plat réunionnais traditionnel, alliant de la morue salée à une sauce épicée à base de tomates, d'oignons et de piments.";
+        "Le rougail morue est un plat réunionnais traditionnel, alliant de la morue à une sauce épicée à base de tomates, d'oignons et de piments.";
       break;
   }
 }
